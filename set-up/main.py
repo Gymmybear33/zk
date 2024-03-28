@@ -16,3 +16,6 @@
 print(30 / 9)
 print(30 // 9)
 
+years = 2
+months = 6
+print("I've had this job for", years, "years and", months, "months")
