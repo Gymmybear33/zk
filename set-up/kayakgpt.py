@@ -71,15 +71,15 @@ while enter != "2":
                           sd_firstclass, "per passenger")
                     passengers = int(
                         input("How many people would be in this trip? "))
-                    total = pr_firstclass * passengers
+                    total = sd_firstclass * passengers
                     print(
                         "Thank you for trusting us with your travel booking. Your total cost for this trip is:", total)
                 else:
                     print("Business class tickets for Santo Domingo are:",
-                          pr_businessclass, "per passenger")
+                          sd_businessclass, "per passenger")
                     passengers = int(
                         input("How many people would be in this trip? "))
-                    total = pr_businessclass * passengers
+                    total = sd_businessclass * passengers
                     print(
                         "Thank you for trusting us with your travel booking. Your total cost for this trip is:", total)
 
@@ -104,3 +104,5 @@ while enter != "2":
                     print("Wow, we are on a roll here! I'll start the paperwork")
                 else:
                     print("So sorry I wasn't much of a help. Maybe next time.")
+        enter = input("Enter 1 - To Start -or- Enter 2 - To Stop")
+    print("Enjoy your trip!")
